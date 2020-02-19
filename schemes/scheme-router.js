@@ -3,6 +3,7 @@ const express = require('express');
 const Schemes = require('./scheme-model.js');
 
 const router = express.Router();
+// console.log(Schemes)
 
 router.get('/', (req, res) => {
   Schemes.find()
